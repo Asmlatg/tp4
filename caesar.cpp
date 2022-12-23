@@ -34,10 +34,8 @@ caesar::~caesar()
 }
 int main()
 {
-    string a="les sanglots longs des violons de l'automne blessent mon coeur d'une langueur monotone";
-    caesar code(a);
+    caesar code("c:/Users/asmae/Desktop/abc.txt");
     code.encode();
     code.coded();
-    code.uncoded();
-    return 0;
 }
+
